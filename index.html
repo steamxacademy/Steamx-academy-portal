@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Robotics Portal | Steamx Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar navigation -->
+    <aside class="sidebar" id="sidebar">
+        <h2>AI</h2>
+        <p class="subtitle">Robotics Academy</p>
+
+        <nav>
+            <button class="nav-btn active" data-page="dashboard">Dashboard</button>
+            <button class="nav-btn" data-page="schools">Schools</button>
+            <button class="nav-btn" data-page="teachers">Teachers</button>
+            <button class="nav-btn" data-page="students">Students</button>
+            <button class="nav-btn" data-page="curriculum">Curriculum</button>
+        </nav>
+
+        <p class="notice">Prototype · Sample data only</p>
+    </aside>
+
+    <!-- Dark background behind mobile menu -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Main content -->
+    <main>
+        <header>
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="sidebar">
+                ☰
+            </button>
+
+            <div class="header-info">
+                <p class="eyebrow">STEAMX ACADEMY</p>
+                <h1 id="page-title">Admin Dashboard</h1>
+                <p class="muted">Your robotics learning network</p>
+            </div>
+
+            <span class="avatar">SA</span>
+        </header>
+
+        <section id="page-content"></section>
+
+        <footer>AI Robotics Academy · Learning Portal</footer>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
