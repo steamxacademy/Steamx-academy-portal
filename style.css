@@ -289,3 +289,141 @@ footer { padding: 20px 0; color: var(--muted); font-size: 12px; }
   }
 }
 
+
+/* SCHOOL MANAGEMENT */
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.school-form {
+    background: #f7f9fd;
+    border: 1px solid var(--border);
+    padding: 22px;
+    border-radius: 12px;
+    margin-bottom: 22px;
+}
+
+.school-form h3 {
+    margin-top: 0;
+}
+
+.school-form label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 14px 0 7px;
+}
+
+.school-form input,
+.search-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.school-form input:focus,
+.search-box input:focus {
+    border-color: var(--blue);
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.cancel-btn,
+.edit-btn,
+.delete-btn {
+    padding: 10px 14px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: white;
+}
+
+.edit-btn {
+    color: var(--blue);
+    border-color: var(--blue);
+}
+
+.delete-btn {
+    color: #d33b3b;
+    border-color: #d33b3b;
+}
+
+.search-box {
+    margin: 20px 0;
+}
+
+.school-count {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 15px;
+}
+
+.school-record {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 18px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.school-details h3 {
+    margin: 0 0 7px;
+}
+
+.school-details p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.school-code {
+    color: var(--blue);
+}
+
+.school-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px 15px;
+    color: var(--muted);
+}
+
+@media (max-width: 600px) {
+    .school-record {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .school-actions {
+        width: 100%;
+    }
+
+    .school-actions button {
+        flex: 1;
+    }
+
+    .section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
