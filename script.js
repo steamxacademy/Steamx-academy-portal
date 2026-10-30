@@ -74,7 +74,7 @@ function dashboardPage() {
         </div>
 
         <div class="panel">
-            <h2>Welcome to Steamx Academy</h2>
+            <h2>Welcome to Ai Robotics Academy</h2>
             <p>Manage your schools and build the future of robotics education.</p>
         </div>
     `;
