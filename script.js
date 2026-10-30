@@ -18,7 +18,7 @@ const pages = {
         <div class="list-item"><span>November–February — Advanced Projects</span><span class="tag">Planned</span></div>
       </div>
       <div class="panel">
-        <h2>AI Robotics Academy</h2>
+        <h2>Ai Robotics Academy</h2>
         <p>This is the starting layout for your multi-school robotics learning platform.</p>
       </div>`
   },
